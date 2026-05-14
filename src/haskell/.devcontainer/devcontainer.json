@@ -1,0 +1,17 @@
+{
+  "name": "Haskell Dev Container (Cabal)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell",
+        "ms-vscode.makefile-tools",
+        "agurodriguez.vscode-lbnf"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "ghc --version && bnfc --version && make --version"
+}
