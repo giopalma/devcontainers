@@ -1,6 +1,6 @@
 {
   "id": "haskell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Haskell",
   "description": "A Template for Haskell development.",
   "options": {
