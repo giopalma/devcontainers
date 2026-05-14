@@ -32,5 +32,6 @@ jobs:
       - name: Publish Template to GHCR
         run: |
           devcontainer templates publish \
-            -r ghcr.io/${{ github.repository_owner }} \
-            ./src
+            ./src \
+            --registry ghcr.io \
+            --namespace ${{ github.repository }}
