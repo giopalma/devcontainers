@@ -1,5 +1,5 @@
 {
-  "name": "Haskell Dev Container (Cabal)",
+  "name": "Haskell",
   "build": {
     "dockerfile": "Dockerfile"
   },
