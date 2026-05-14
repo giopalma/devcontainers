@@ -1,6 +1,6 @@
 {
   "id": "haskell",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "name": "Haskell",
   "publisher": "Giovanni Palma (@giopalma)",
   "description": "A Template for Haskell development.",
