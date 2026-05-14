@@ -1,4 +1,4 @@
-FROM haskell:${templateOption:ghc-version}
+FROM haskell:${templateOption:ghcVersion}
 
 # Installa dipendenze di sistema
 # Crea utente non-root
@@ -16,9 +16,9 @@ WORKDIR /home/vscode
 
 # Aggiorna cabal e installa i tool nell'ambiente utente
 RUN cabal update && cabal install \
-    happy-${templateOption:happy-version} \
-    alex-${templateOption:alex-version} \
-    BNFC-${templateOption:bnfc-version}
+    happy-${templateOption:happyVersion} \
+    alex-${templateOption:alexVersion} \
+    BNFC-${templateOption:bnfcVersion}
 
 # Aggiunge i binari cabal al PATH
 ENV PATH="/home/vscode/.cabal/bin:${PATH}"

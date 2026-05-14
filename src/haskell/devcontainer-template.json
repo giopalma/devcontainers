@@ -1,32 +1,28 @@
 {
   "id": "haskell",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "name": "Haskell",
   "publisher": "Giovanni Palma (@giopalma)",
   "description": "A Template for Haskell development.",
   "options": {
-    "happy-version": {
+    "happyVersion": {
       "type": "string",
       "description": "The version of Happy to use.",
-      "enum": ["2.2"],
       "default": "2.2"
     },
-    "alex-version": {
+    "alexVersion": {
       "type": "string",
       "description": "The version of Alex to use.",
-      "enum": ["3.5.4.2"],
       "default": "3.5.4.2"
     },
-    "bnfc-version": {
+    "bnfcVersion": {
       "type": "string",
       "description": "The version of BNFC to use.",
-      "enum": ["2.9.6.3"],
       "default": "2.9.6.3"
     },
-    "ghc-version": {
+    "ghcVersion": {
       "type": "string",
       "description": "The version of GHC to use.",
-      "enum": ["9.14.1"],
       "default": "9.14.1"
     }
   },
