@@ -3,6 +3,27 @@
   "version": "0.0.1",
   "name": "Haskell",
   "description": "A Template for Haskell development.",
-  "options": {},
+  "options": {
+    "happy-version": {
+      "type": "string",
+      "description": "The version of Happy to use.",
+      "default": "2.2"
+    },
+    "alex-version": {
+      "type": "string",
+      "description": "The version of Alex to use.",
+      "default": "3.5.4.2"
+    },
+    "bnfc-version": {
+      "type": "string",
+      "description": "The version of BNFC to use.",
+      "default": "2.9.6.3"
+    },
+    "ghc-version": {
+      "type": "string",
+      "description": "The version of GHC to use.",
+      "default": "9.14.1"
+    }
+  },
   "platforms": ["Any"]
 }
